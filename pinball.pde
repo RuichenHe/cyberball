@@ -372,7 +372,7 @@ Vec2 velocityChange(String shapeType, float[] shapeInfo, float[] ballInfo, Vec2 
   case "Boxes":
   stroke(darkBlue2);
   fill(shinyBlue);
-  strokeWeight(5);
+  strokeWeight(10);
   rect(shapeInfo[0] * resizeFactor, shapeInfo[1] * resizeFactor, shapeInfo[2] * resizeFactor, shapeInfo[3] * resizeFactor);
   playerBox.rewind();
   playerBox.play();
