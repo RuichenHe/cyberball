@@ -16,6 +16,8 @@ In the first demo gif, the following features have been presented:
 + **Reactive Obstacles** (5), when pinballs collide with line segments or the rectangle obstacles, the obstacles will light up
 + **Score Display** (5), collide with line segment +10, collide with circle obstacles +20, collide with box obstacles +50
 
+![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo2.gif)
+
 In the second demo gif, a different scene has been presented. In the game, we have a scene structure reading system to load the scene setup from a Scene.txt file. Currently, two scenes have been designed. But with the current system, multiple scenes can be design and crafted easily. 
 Cliamed feature:
 + **Loading Scenes from Files** (10)
