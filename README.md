@@ -4,7 +4,7 @@ A project for *CSCI 5611: Animation and Planning in Games*. **Cyberball** is a 2
 # Gameplay Demo 
 [<img src="https://img.youtube.com/vi/Mv5wsSdK-rM/hqdefault.jpg" />](https://youtu.be/Mv5wsSdK-rM)
 
-(Click to jump to youtube to play)
+### (Click to jump to youtube to play)
 
 <video src = "https://github.com/RuichenHe/cyberball/assets/108921106/c4811ca9-564e-4d27-9ff6-bfc02fcb3e71" />
 
