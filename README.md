@@ -5,7 +5,7 @@ A project for *CSCI 5611: Animation and Planning in Games*. **Cyberball** is a 2
 # Features
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo1.gif)
 
-<img src="{{ "doc/demo1.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
+<img src="{{ "doc/demo1.gif" | prepend: site.baseurl | prepend: site.url}}" alt="demo1" />
 
 In the first demo gif, the following features have been presented:
 + **Basic Pinball Dynamics** (30), where pinball can bounce back when colliding with line segment, circle, or rectagnle obstacles.
@@ -20,6 +20,8 @@ In the first demo gif, the following features have been presented:
 + **Pinball Game** (20)
 
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo2.gif)
+
+<img src="{{ "doc/demo2.gif" | prepend: site.baseurl | prepend: site.url}}" alt="demo2" />
 
 In the second demo gif, a different scene has been presented. In the game, we have a scene structure reading system to load the scene setup from a Scene.txt file. Currently, two scenes have been designed. But with the current system, multiple scenes can be design and crafted easily. 
 Cliamed feature:
