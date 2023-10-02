@@ -41,9 +41,9 @@ For the scene background, I use a AI image generation app (Wonder.AI) to generat
 
 # Game Play
 
-To start a new game, simply press SPACE to shoot out the first pinball. 
-If all three pinballs are lost, game will end. Press "R" to restart the game.
-To control the left/right flipper, simply use LEFT and RIGHT keys. By default, if there is no pressed, these two flippers will remain stable at the initial location, and have a tendency to move back to the initial locations. 
+To start a new game, simply press `SPACE` to shoot out the first pinball. 
+If all three pinballs are lost, game will end. Press `R` to restart the game.
+To control the left/right flipper, simply use `LEFT` and `RIGHT` keys. By default, if there is no pressed, these two flippers will remain stable at the initial location, and have a tendency to move back to the initial locations. 
 The current score can be found at the left top corner, while the total pinball left can be found on the right top corner. 
 
 # Code
