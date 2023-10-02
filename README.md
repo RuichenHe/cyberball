@@ -5,14 +5,10 @@ A project for *CSCI 5611: Animation and Planning in Games*. **Cyberball** is a 2
 [<img src="https://img.youtube.com/vi/Mv5wsSdK-rM/hqdefault.jpg" />](https://youtu.be/Mv5wsSdK-rM)
 
 ##Click to jump to youtube to play**
-
 <video src = "https://github.com/RuichenHe/cyberball/assets/108921106/c4811ca9-564e-4d27-9ff6-bfc02fcb3e71" />
-
 # Features
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo1.gif)
-
 <img src="{{ "doc/demo1.gif" | prepend: site.baseurl | prepend: site.url}}" alt="demo1" />
-
 In the first demo gif, the following features have been presented:
 + **Basic Pinball Dynamics** (30), where pinball can bounce back when colliding with line segment, circle, or rectagnle obstacles.
 + **Multiple Balls Interacting** (20), where multiple pinballs can colllide with each other
