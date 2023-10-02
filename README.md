@@ -4,7 +4,7 @@ A project for *CSCI 5611: Animation and Planning in Games*. **Cyberball** is a 2
 
 
 
-[<video src='https://github.com/RuichenHe/cyberball/blob/main/pinballGamePlayDemo.mp4' width=512/></video>](https://github.com/RuichenHe/cyberball/assets/108921106/c4811ca9-564e-4d27-9ff6-bfc02fcb3e71)
+[<video src='https://github.com/RuichenHe/cyberball/blob/main/pinballGamePlayDemo.mp4'></video>](https://github.com/RuichenHe/cyberball/assets/108921106/c4811ca9-564e-4d27-9ff6-bfc02fcb3e71)
 # Features
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo1.gif)
 
