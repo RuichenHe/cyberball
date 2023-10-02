@@ -30,6 +30,7 @@ Additional features that claimed in tha game:
 For all the collision related code, I use the library I created for my first homework. One optimization I tried and successfully implemented is a BVH tree (spatial structure) to optimize the serach of the collision object. 
 For three types of obstacles, they have different physic materials, which means that the coefficient of collisoin is different. In general, for line segment collison, it will decrease the total energy, for the circle obstacle collision, it will increase the total energy and speed up the movement of the pinball, for the box obstacle collision, it will remain the same total energy. 
 For all the velocity changes and flipper collison, I use the equitions appears in the slides for references.
+For the scene background, I use a AI image generation app (Wonder.AI) to generate them. 
 
 # Game Play
 
