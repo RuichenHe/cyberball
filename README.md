@@ -15,12 +15,28 @@ In the first demo gif, the following features have been presented:
 + **Textured Obstacles** (5), specifically the circle obstacles
 + **Reactive Obstacles** (5), when pinballs collide with line segments or the rectangle obstacles, the obstacles will light up
 + **Score Display** (5), collide with line segment +10, collide with circle obstacles +20, collide with box obstacles +50
++ **Pinball Game** (20)
 
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo2.gif)
 
 In the second demo gif, a different scene has been presented. In the game, we have a scene structure reading system to load the scene setup from a Scene.txt file. Currently, two scenes have been designed. But with the current system, multiple scenes can be design and crafted easily. 
 Cliamed feature:
 + **Loading Scenes from Files** (10)
+
+Additional features that claimed in tha game:
++ **Sound Effects** (5), which can be found in the youtube video (since gif cannot record sound effect).
+
+# Technical Detail
+For all the collision related code, I use the library I created for my first homework. One optimization I tried and successfully implemented is a BVH tree (spatial structure) to optimize the serach of the collision object. 
+For three types of obstacles, they have different physic materials, which means that the coefficient of collisoin is different. In general, for line segment collison, it will decrease the total energy, for the circle obstacle collision, it will increase the total energy and speed up the movement of the pinball, for the box obstacle collision, it will remain the same total energy. 
+For all the velocity changes and flipper collison, I use the equitions appears in the slides for references.
+
+# Game Play
+
+To start a new game, simply press SPACE to shoot out the first pinball. 
+If all three pinballs are lost, game will end. Press "R" to restart the game.
+To control the left/right flipper, simply use LEFT and RIGHT keys. By default, if there is no pressed, these two flippers will remain stable at the initial location, and have a tendency to move back to the initial locations. 
+The current score can be found at the left top corner, while the total pinball left can be found on the right top corner. 
 
 # Code
 The source code is available to download [here](https://github.com/RuichenHe/cyberball/)
