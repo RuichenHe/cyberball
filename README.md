@@ -4,7 +4,8 @@ A project for *CSCI 5611: Animation and Planning in Games*. Cyberball is a 2d pi
 
 # Features
 ![](https://github.com/RuichenHe/cyberball/blob/main/doc/demo1.gif)
-## Basic Pinball Dynamics
+In the first demo gif, the following features have been presented:
++ Basic Pinball Dynamics
 
 # Code
 The source code is available to download [here](https://github.com/RuichenHe/cyberball/)
