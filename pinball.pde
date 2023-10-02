@@ -3,7 +3,7 @@ import java.io.File;
 import processing.sound.*;
 
 //Parameters required changing start here
-String fileName = "Scene2";// File name of the scene, these scenes should be in the same folder as this sde file.
+String fileName = "Scene1";// File name of the scene, these scenes should be in the same folder as this sde file.
 
 PImage bg;
 PImage circleObstacle;
